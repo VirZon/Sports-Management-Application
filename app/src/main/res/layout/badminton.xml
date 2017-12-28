@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:scrollbars="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.examplea.prageet.myapplication.mEvents.Handball">
+
+    <RelativeLayout
+        android:scrollbars="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rel1"
+        >
+
+        <ImageButton
+            android:fitsSystemWindows="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/badminton3"
+            android:background="#FFFFFF"
+            android:paddingTop="10sp"
+            android:paddingBottom="20sp"
+            android:id="@+id/handball1"
+            />
+        <View
+            android:layout_below="@id/handball1"
+            android:id="@+id/view1"
+            android:layout_width="280sp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BADMINTON"
+            android:textAlignment="center"
+            android:id="@+id/tv1"
+            android:paddingTop="10sp"
+            android:layout_marginLeft="10sp"
+            android:textSize="30sp"
+            android:textColor="#fdd835"
+            android:layout_below="@id/view1"
+            />
+        <View
+            android:layout_below="@id/tv1"
+            android:id="@+id/view2"
+            android:layout_width="340sp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv2"
+            android:text="Rule and Regulation"
+            android:paddingTop="10sp"
+            android:layout_marginLeft="10sp"
+            android:textSize="20sp"
+            android:textColor="#fdd835"
+            android:layout_below="@id/view2"
+            />
+        <LinearLayout
+            android:layout_below="@id/tv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/linearLayout">
+            <TextView
+                android:padding="10sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Players have to bring their own rackets. Shuttles will be provided."
+                />
+            <TextView
+                android:padding="10sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@id/toolbar2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• 3 Categories are there : Men Singles , Women Singles and Mixed Doubles(Please Dont Register for Men Double and Women Double)."
+                />
+            <TextView
+                android:padding="10sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@id/toolbar2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• 11 point system(till 3rd Round): only 1 set. 3 sets for semifinals and final. Draws will be displayed on the cavorts
+noticeboard."
+                />
+            <TextView
+                android:padding="10sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@id/toolbar2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Participants must be present at the court 10 minutes before the match begins."
+                />
+            <TextView
+                android:padding="10sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@id/toolbar2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Failure to do so will be counted as forfeiture and the opponent will be given a bye to the next
+round."
+                />
+
+            <TextView
+                android:padding="10sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@id/toolbar2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• To begin a match, the shuttle is tossed, and the side which shuttle is pointing towards shall
+decide the following: which end of court to play, and which player/team to start the game."
+                />
+            <TextView
+                android:padding="10sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@id/toolbar2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Registration Closes by 31st October."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EVENT COORDINATORS"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:padding="20sp"
+                />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:padding="5sp"
+                    android:layout_marginLeft="15sp"
+                    android:textColor="#000000"
+                    android:text="Sakshi Soni"
+                    />
+                <TextView
+                    android:padding="5sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8107463301"
+                    android:textStyle="bold"
+                    android:id="@+id/con_num1"
+                    android:textColor="#0085B2"
+                    android:textSize="20sp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20sp"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:padding="5sp"
+                    android:layout_marginLeft="15sp"
+                    android:textColor="#000000"
+                    android:text="Suruchi Priya"
+                    />
+                <TextView
+                    android:padding="5sp"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9521831741"
+                    android:id="@+id/con_num2"
+                    android:textStyle="bold"
+                    android:textColor="#0085B2"
+                    android:textSize="20sp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20sp"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:padding="5sp"
+                    android:layout_marginLeft="15sp"
+                    android:textColor="#000000"
+                    android:text="Rituraj Mathur"
+                    />
+                <TextView
+                    android:padding="5sp"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7073320380"
+                    android:id="@+id/con_num3"
+                    android:textStyle="bold"
+                    android:textColor="#0085B2"
+                    android:textSize="20sp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20sp"
+                    />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/reg"
+                android:layout_below="@id/con_num2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                />
+            <Button
+
+                android:id="@+id/down"
+                android:layout_below="@id/con_num2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Download"
+                android:visibility="invisible"
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

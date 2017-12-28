@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:scrollbars="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.examplea.prageet.myapplication.mEvents.Handball">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:scrollbars="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rel1"
+        tools:context="com.examplea.prageet.myapplication.mEvents.Handball">
+
+    <ImageButton
+        android:fitsSystemWindows="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/handball"
+        android:background="#FFFFFF"
+        android:paddingTop="10sp"
+        android:paddingBottom="20sp"
+        android:id="@+id/handball1"
+        />
+    <View
+        android:layout_below="@id/handball1"
+        android:id="@+id/view1"
+        android:layout_width="280sp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="2dp"
+        android:background="#c0c0c0"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HANDBALL"
+        android:textAlignment="center"
+        android:id="@+id/tv1"
+        android:paddingTop="10sp"
+        android:layout_marginLeft="10sp"
+        android:textSize="30sp"
+        android:textColor="#fdd835"
+        android:layout_below="@id/view1"
+        />
+    <View
+        android:layout_below="@id/tv1"
+        android:id="@+id/view2"
+        android:layout_width="340sp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="2dp"
+        android:background="#c0c0c0"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv2"
+        android:text="Rule and Regulation"
+        android:paddingTop="10sp"
+        android:layout_marginLeft="10sp"
+        android:textSize="20sp"
+        android:textColor="#fdd835"
+        android:layout_below="@id/view2"
+        />
+    <LinearLayout
+        android:layout_below="@id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:padding="10sp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• A team shall have min. 6 players- 5 playing and 1 GK (Substitute max-3)."
+            />
+        <TextView
+            android:padding="10sp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_below="@id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• A player shall use max 3 dribbles."
+            />
+        <TextView
+            android:padding="10sp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_below="@id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• A goal is scored by throwing the ball in the goalpost."
+            />
+        <TextView
+            android:padding="10sp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_below="@id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• No player from attacking or defending side is allowed inside the goal area."
+            />
+        <TextView
+            android:padding="10sp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_below="@id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Once in possession of ball a player is allowed to take a maximum of 3 steps if he chooses not to
+dribble."
+            />
+        <TextView
+            android:padding="10sp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_below="@id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• A team may consist of mixed players from different streams like BBA, BCA, BE, MCA and
+animation but they must belong to the same year in their respective streams."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EVENT COORDINATORS"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:padding="20sp"
+            />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:padding="5sp"
+                android:layout_marginLeft="15sp"
+                android:textColor="#000000"
+                android:text="Rohit Jain"
+                />
+            <TextView
+                android:padding="5sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8955541867"
+                android:id="@+id/con_num1"
+                android:textStyle="bold"
+                android:textColor="#0085B2"
+                android:textSize="20sp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20sp"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:padding="5sp"
+                android:layout_marginLeft="15sp"
+                android:textColor="#000000"
+                android:text="Vishal Soni"
+                />
+            <TextView
+                android:padding="5sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9799600755"
+                android:id="@+id/con_num2"
+                android:textStyle="bold"
+                android:textColor="#0085B2"
+                android:textSize="20sp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20sp"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:padding="5sp"
+                android:layout_marginLeft="15sp"
+                android:textColor="#000000"
+                android:text="Tarush Sharma"
+                />
+            <TextView
+                android:padding="5sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9828087739"
+                android:id="@+id/con_num3"
+                android:textStyle="bold"
+                android:textColor="#0085B2"
+                android:textSize="20sp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20sp"
+                />
+        </RelativeLayout>
+        <Button
+            android:id="@+id/reg"
+            android:layout_below="@id/con_num2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            />
+        <Button
+
+            android:id="@+id/down"
+            android:layout_below="@id/con_num2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Download"
+            android:visibility="invisible"
+            />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+    </ScrollView>

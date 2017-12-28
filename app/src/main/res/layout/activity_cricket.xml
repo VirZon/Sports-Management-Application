@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:scrollbars="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.examplea.prageet.myapplication.mEvents.Cricket">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:scrollbars="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rel1"
+        tools:context="com.examplea.prageet.myapplication.mEvents.Cricket">
+
+        <ImageButton
+            android:fitsSystemWindows="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:gravity="center"
+            android:src="@drawable/cricket"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cricket1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/badminton1"
+            android:background="#3F51B5"
+            android:padding="40sp"
+            android:id="@+id/toolbar1"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cricket"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp"
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Register"
+                    android:id="@+id/register_final"
+                    android:background="#3F51B5"
+                    android:layout_marginRight="30sp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    />
+            </RelativeLayout>
+        </Toolbar>
+        <Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/toolbar1"
+            android:background="#3D5AFE"
+            android:padding="20sp"
+            android:id="@+id/toolbar2"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rules and Regulations"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                />
+
+
+        </Toolbar>
+
+
+        <LinearLayout
+            android:layout_below="@id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:padding="10sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• A team will consist of 15 players (11 players + 4 extras)."
+                />
+            <TextView
+                android:padding="10sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@id/toolbar2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• No player is allowed to play from two different teams."
+                />
+            <TextView
+                android:padding="10sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@id/toolbar2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Teams should consist of all the players from the same year but can be from any course."
+                />
+            <TextView
+                android:padding="10sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@id/toolbar2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Teams are supposed to report on ground on given time, if any team fails to report within 15
+minutes of the reporting time, the team is liable for disqualification."
+                />
+            <TextView
+                android:padding="10sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@id/toolbar2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Qualifiers will be of 10 overs a side with 2 overs of mandatory power play and 1 over of batting
+power play."
+                />
+            <TextView
+                android:padding="10sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@id/toolbar2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Semi finals and finals will be of 12 overs a side ( 3 mandatory + 1 batting power play overs)."
+                />
+            <TextView
+                android:padding="10sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@id/toolbar2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• All standard ICC rules are applicable except LBW."
+                />
+            <TextView
+                android:padding="10sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@id/toolbar2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Umpires and Organizing committee decision will be final."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EVENT COORDINATORS"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:padding="20sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:padding="5sp"
+                android:layout_marginLeft="15sp"
+                android:textColor="#000000"
+                android:text="Pulkit Gupta"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginLeft="15sp"
+                android:padding="5sp"
+                android:textColor="#000000"
+                android:text="Shubham Israni"
+                />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

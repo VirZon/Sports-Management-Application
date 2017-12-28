@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:scrollbars="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.examplea.prageet.myapplication.mEvents.Athletics">
+
+    <RelativeLayout
+        android:scrollbars="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rel1"
+        >
+
+        <ImageButton
+            android:fitsSystemWindows="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/khokho"
+            android:background="#FFFFFF"
+            android:paddingTop="10sp"
+            android:paddingBottom="20sp"
+            android:id="@+id/handball1"
+            />
+        <View
+            android:layout_below="@id/handball1"
+            android:id="@+id/view1"
+            android:layout_width="280sp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KHO KHO"
+            android:textAlignment="center"
+            android:id="@+id/tv1"
+            android:paddingTop="10sp"
+            android:layout_marginLeft="10sp"
+            android:textSize="30sp"
+            android:textColor="#fdd835"
+            android:layout_below="@id/view1"
+            />
+        <View
+            android:layout_below="@id/tv1"
+            android:id="@+id/view2"
+            android:layout_width="340sp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv2"
+            android:text="Rule and Regulation"
+            android:paddingTop="10sp"
+            android:layout_marginLeft="10sp"
+            android:textSize="20sp"
+            android:textColor="#fdd835"
+            android:layout_below="@id/view2"
+            />
+        <LinearLayout
+            android:layout_below="@id/tv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:padding="10sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Every group comprises of 12 players, yet just 9 players take the field."
+                />
+            <TextView
+                android:padding="10sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@id/toolbar2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• A match comprises two FC innings with every inning comprising pursuing and running turns of 9
+minutes each."
+                />
+            <TextView
+                android:padding="10sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@id/toolbar2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• One group sits/stoops amidst the court, in succession with adjoining individuals confronting
+inverse headings."
+                />
+            <TextView
+                android:padding="10sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@id/toolbar2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• The runners take the field, 3 at once and the group that takes the briefest time to label/tap
+every one of the adversaries in the field, wins."
+                />
+            <TextView
+                android:padding="10sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@id/toolbar2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• There is a post on every end and the runner can go between two players who are sitting in
+crisscross way, however the chaser is not permitted to turn back while running and go between
+the players."
+                />
+            <TextView
+                android:padding="10sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@id/toolbar2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• In any case, chaser can go to shaft and touch it and can retreat or go to other side."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EVENT COORDINATORS"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:padding="20sp"
+                />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:padding="5sp"
+                    android:layout_marginLeft="15sp"
+                    android:textColor="#000000"
+                    android:text="Divyansh Rajoria"
+                    />
+                <TextView
+                    android:padding="5sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8385995366"
+                    android:id="@+id/con_num1"
+                    android:textStyle="bold"
+                    android:textColor="#0085B2"
+                    android:textSize="20sp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20sp"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:padding="5sp"
+                    android:layout_marginLeft="15sp"
+                    android:textColor="#000000"
+                    android:text="Shraddha Chavanda"
+                    />
+                <TextView
+                    android:padding="5sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7340089937"
+                    android:id="@+id/con_num2"
+                    android:textStyle="bold"
+                    android:textColor="#0085B2"
+                    android:textSize="20sp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20sp"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:padding="5sp"
+                    android:layout_marginLeft="15sp"
+                    android:textColor="#000000"
+                    android:text="Sandeep Singh"
+                    />
+                <TextView
+                    android:padding="5sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7597847174"
+                    android:id="@+id/con_num3"
+                    android:textStyle="bold"
+                    android:textColor="#0085B2"
+                    android:textSize="20sp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20sp"
+                    />
+            </RelativeLayout>
+            <Button
+                android:id="@+id/reg"
+                android:layout_below="@id/con_num3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                />
+            <Button
+
+                android:id="@+id/down"
+                android:layout_below="@id/con_num3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Download"
+                android:visibility="invisible"
+                />
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+</ScrollView>

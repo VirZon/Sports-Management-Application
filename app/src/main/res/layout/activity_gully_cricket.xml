@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:scrollbars="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.examplea.prageet.myapplication.mEvents.Kabaddi">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:scrollbars="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rel1"
+        tools:context="com.examplea.prageet.myapplication.mEvents.Kabaddi">
+
+        <ImageButton
+            android:fitsSystemWindows="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:gravity="center"
+            android:src="@drawable/gullycricket"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/handball"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/handball"
+            android:background="#3F51B5"
+            android:padding="40sp"
+            android:id="@+id/toolbar1"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gully Cricket"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp"
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Register"
+                    android:id="@+id/register_final"
+                    android:background="#3F51B5"
+                    android:layout_marginRight="30sp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    />
+            </RelativeLayout>
+        </Toolbar>
+        <Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/toolbar1"
+            android:background="#3D5AFE"
+            android:padding="20sp"
+            android:id="@+id/toolbar3"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rules and Regulations"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                />
+
+
+        </Toolbar>
+
+
+        <LinearLayout
+            android:layout_below="@id/toolbar3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:padding="10sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Minimum number of team registrations is 24. Further registrations will not be considered."
+                />
+            <TextView
+                android:padding="10sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@id/toolbar2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Teams should reach before 15 minutes of match time."
+                />
+            <TextView
+                android:padding="10sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@id/toolbar2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Maximum 3 teams from a batch."
+                />
+            <TextView
+                android:padding="10sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@id/toolbar2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Match to be played with 8 players with a minimum of 3 girls."
+                />
+            <TextView
+                android:padding="10sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@id/toolbar2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• A Bowler can bowl a maximum of 2 overs in a match."
+                />
+            <TextView
+                android:padding="10sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@id/toolbar2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Match will be played in a limited area with low height boundary."
+                />
+            <TextView
+                android:padding="10sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@id/toolbar2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Bowler have to bowl underarm."
+                />
+            <TextView
+                android:padding="10sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@id/toolbar2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Each team have to play a 6 over inning and the same should be completed within the declared
+time limit."
+                />
+            <TextView
+                android:padding="10sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@id/toolbar2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Match will be played with light weight tennis ball."
+                />
+            <TextView
+                android:padding="10sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@id/toolbar2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• No L.B.W. in the match."
+                />
+            <TextView
+                android:padding="10sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@id/toolbar2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• If the ball bounces more than once before reaching the batsman, it is declared DEAD. 3
+continuous Dead Ball leads to change of bowler."
+                />
+            <TextView
+                android:padding="10sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@id/toolbar2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• If the batsman hits the ball directly above the boundary rope, he/she is declared OUT."
+                />
+            <TextView
+                android:padding="10sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@id/toolbar2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• No Ball, Wide Ball, Dead Ball will be counted as extra."
+                />
+            <TextView
+                android:padding="10sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@id/toolbar2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• ICC rules are to be applied."
+                />
+            <TextView
+                android:padding="10sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@id/toolbar2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Umpire’s decision will be the last and final decision."
+                />
+            <TextView
+                android:padding="10sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@id/toolbar2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Bowler is not allowed to wrist-spin the ball, the ball will be declared as No Ball if fond so."
+                />
+            <TextView
+                android:padding="10sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@id/toolbar2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Coordinators reserve the right to amend the rules at any time before a match."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EVENT COORDINATORS"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:padding="20sp"
+                />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:padding="5sp"
+                    android:layout_marginLeft="15sp"
+                    android:textColor="#000000"
+                    android:text="Arpita Tripathi"
+                    />
+                <TextView
+                    android:padding="5sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9166405882"
+                    android:id="@+id/con_num1"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20sp"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:padding="5sp"
+                android:layout_marginLeft="15sp"
+                android:textColor="#000000"
+                android:text="Gaurav"
+                />
+            <TextView
+                android:padding="5sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8209203746"
+                android:id="@+id/con_num2"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20sp"
+                />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

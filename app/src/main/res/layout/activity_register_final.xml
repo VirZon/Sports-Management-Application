@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.examplea.prageet.myapplication.RegisterFinal">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:background="@drawable/register"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tell Us About"
+            android:textSize="50sp"
+            android:id="@+id/intro1"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/intro1"
+            android:text="Yourself"
+            android:textStyle="bold"
+            android:textSize="50sp"
+            android:textColor="#000000"
+            android:id="@+id/intro2"
+            android:textAlignment="center"
+            />
+        <EditText
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/intro2"
+            android:layout_width="250sp"
+            android:layout_height="50sp"
+            android:inputType="textPersonName"
+
+            android:hint="Name"
+            android:id="@+id/name11"
+
+            />
+        <EditText
+            android:layout_centerHorizontal="true"
+            android:id="@+id/email1"
+            android:layout_below="@id/name11"
+            android:layout_width="250sp"
+            android:layout_height="50sp"
+            android:inputType="textPersonName"
+
+            android:hint="Email"
+
+            />
+
+        <EditText
+            android:layout_centerHorizontal="true"
+            android:id="@+id/contact1"
+            android:layout_below="@id/email1"
+            android:layout_width="250sp"
+            android:layout_height="50sp"
+            android:inputType="textPersonName"
+
+            android:hint="Contact"
+
+            />
+        <EditText
+            android:layout_centerHorizontal="true"
+            android:id="@+id/roll_no1"
+            android:layout_below="@id/contact1"
+            android:layout_width="250sp"
+            android:layout_height="50sp"
+            android:inputType="textPersonName"
+
+            android:hint="Roll No"
+
+            />
+        <Spinner
+            android:padding="10dp"
+            android:id="@+id/sem1"
+            android:layout_centerHorizontal="true"
+            android:layout_width="250sp"
+            android:layout_height="40sp"
+            android:layout_below="@id/roll_no1"
+            android:layout_marginLeft="30sp"
+            android:entries="@array/sem"
+            >
+        </Spinner>
+
+        <Spinner
+            android:id="@+id/branch1"
+            android:padding="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="250sp"
+            android:layout_height="40sp"
+            android:layout_below="@id/sem1"
+            android:layout_marginLeft="50sp"
+            android:entries="@array/branch"
+            >
+        </Spinner>
+
+        <Button
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/branch1"
+            android:id="@+id/register11"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:layout_marginTop="15dp"
+            android:background="#50ffe082"
+
+            />
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

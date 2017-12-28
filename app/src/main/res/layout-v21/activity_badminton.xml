@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:scrollbars="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.examplea.prageet.myapplication.mEvents.Badminton">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:scrollbars="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rel1"
+    tools:context="com.examplea.prageet.myapplication.mEvents.Badminton">
+
+    <ImageButton
+        android:fitsSystemWindows="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:gravity="center"
+        android:src="@drawable/badminton3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/badminton1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/badminton1"
+        android:background="#3F51B5"
+        android:padding="40sp"
+        android:id="@+id/toolbar1"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Badminton"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:id="@+id/register_final"
+                android:background="#3F51B5"
+                android:layout_marginRight="30sp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                />
+        </RelativeLayout>
+    </Toolbar>
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar1"
+        android:background="#3D5AFE"
+        android:padding="20sp"
+        android:id="@+id/toolbar2"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rules and Regulations"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            />
+
+
+    </Toolbar>
+
+
+    <LinearLayout
+        android:layout_below="@id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:padding="10sp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Players have to bring their own rackets. Shuttles will be provided."
+            />
+        <TextView
+            android:padding="10sp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_below="@id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• All men and women categories will play."
+            />
+        <TextView
+            android:padding="10sp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_below="@id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• 21 point system: only 1 set. 3 sets for semifinals and final. Draws will be displayed on the cavorts
+noticeboard."
+            />
+        <TextView
+            android:padding="10sp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_below="@id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Participants must be present at the court 10 minutes before the match begins."
+            />
+        <TextView
+            android:padding="10sp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_below="@id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Failure to do so will be counted as forfeiture and the opponent will be given a bye to the next
+round."
+            />
+        <TextView
+            android:padding="10sp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_below="@id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• To begin a match, the shuttle is tossed, and the side which shuttle is pointing towards shall
+decide the following: which end of court to play, and which player/team to start the game."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EVENT COORDINATORS"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:padding="20sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="5sp"
+            android:layout_marginLeft="15sp"
+            android:textColor="#000000"
+            android:text="Ujjwal Bajaj"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginLeft="15sp"
+            android:padding="5sp"
+            android:textColor="#000000"
+            android:text="Bhavita Gupta"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>
+</ScrollView>

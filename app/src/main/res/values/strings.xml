@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Cavorts\'17</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="sem">
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="branch">
+        <item>BE-CSE</item>
+        <item>BBA</item>
+        <item>BCA</item>
+        <item>BE-ECE</item>
+        <item>BE-EEE</item>
+        <item>MBA</item>
+        <item>IMBA</item>
+        <item>MCA</item>
+        <item>MSc</item>
+        <item>BAM</item>
+    </string-array>
+    <string-array name="games">
+        <item>Badminton</item>
+        <item>Athletics</item>
+        <item>Basketball</item>
+        <item>Handball</item>
+        <item>Cricket</item>
+        <item>Carrom</item>
+        <item>Kabaddi</item>
+        <item>Khokho</item>
+        <item>Gully Cricket</item>
+        <item>Chess</item>
+        <item>Football</item>
+        <item>Volleyball</item>
+        <item>Tug of War</item>
+        <item>Table Tennis</item>
+        <item>LAN gaming</item>
+    </string-array>
+</resources>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:scrollbars="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.examplea.prageet.myapplication.mEvents.Basketball">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:fitsSystemWindows="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:gravity="center"
+        android:src="@drawable/basketball"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/basketball"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:textColor="#000000"
+        android:layout_marginLeft="20sp"
+        android:text="Basketball"
+        android:textSize="30sp"
+        android:layout_below="@id/basketball"
+        android:id="@+id/basketball1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_below="@id/basketball1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:padding="10sp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Each team consists of three players and one substitute."
+            />
+        <TextView
+            android:padding="10sp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_below="@id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• The game is played on half-court."
+            />
+        <TextView
+            android:padding="10sp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_below="@id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• There are no jump balls at any time in the game."
+            />
+        <TextView
+            android:padding="10sp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_below="@id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Successful shot within arc 1 point."
+            />
+        <TextView
+            android:padding="10sp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_below="@id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• No shouldering, holding, striking, pushing, or tripping in any way of an opponent."
+            />
+        <TextView
+            android:padding="10sp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_below="@id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• A team may consist of players from different streams like BBA, BCA, BE, etc. but they belong to
+same year."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EVENT COORDINATORS"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:padding="20sp"
+            />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:padding="5sp"
+                android:layout_marginLeft="15sp"
+                android:textColor="#000000"
+                android:text="Anuj Jain"
+                />
+            <TextView
+                android:padding="5sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9799301038"
+                android:id="@+id/con_num1"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20sp"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:padding="5sp"
+                android:layout_marginLeft="15sp"
+                android:textColor="#000000"
+                android:text="Bakul Sharma"
+                />
+            <TextView
+                android:padding="5sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9524245540"
+                android:id="@+id/con_num2"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20sp"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:padding="5sp"
+                android:layout_marginLeft="15sp"
+                android:textColor="#000000"
+                android:text="Aditya Shah"
+                />
+            <TextView
+                android:padding="5sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9166608559"
+                android:id="@+id/con_num3"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20sp"
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
+    </ScrollView>

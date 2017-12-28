@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:scrollbars="vertical"
+android:scrollbarAlwaysDrawVerticalTrack="true"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.examplea.prageet.myapplication.mEvents.Athletics">
+
+<RelativeLayout
+    android:scrollbars="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rel1"
+    >
+
+    <ImageButton
+        android:fitsSystemWindows="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/basketball"
+        android:background="#FFFFFF"
+        android:paddingTop="10sp"
+        android:paddingBottom="20sp"
+        android:id="@+id/handball1"
+        />
+    <View
+        android:layout_below="@id/handball1"
+        android:id="@+id/view1"
+        android:layout_width="280sp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="2dp"
+        android:background="#c0c0c0"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BASKETBALL"
+        android:textAlignment="center"
+        android:id="@+id/tv1"
+        android:padding="10sp"
+        android:layout_marginLeft="10sp"
+        android:textSize="30sp"
+        android:textColor="#fdd835"
+        android:layout_below="@id/view1"
+        />
+    <View
+        android:layout_below="@id/tv1"
+        android:id="@+id/view2"
+        android:layout_width="340sp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="2dp"
+        android:background="#c0c0c0"/>
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv2"
+        android:text="Rule and Regulation"
+        android:paddingTop="15sp"
+        android:layout_marginLeft="20sp"
+        android:textSize="20sp"
+        android:textColor="#fdd835"
+        android:layout_below="@id/view2"
+        />
+    <LinearLayout
+        android:layout_below="@id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:padding="10sp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Each team consists of three players and one substitute."
+            />
+        <TextView
+            android:padding="10sp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_below="@id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• The game is played on half-court."
+            />
+        <TextView
+            android:padding="10sp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_below="@id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• There are no jump balls at any time in the game."
+            />
+        <TextView
+            android:padding="10sp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_below="@id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Successful shot within arc 1 point."
+            />
+        <TextView
+            android:padding="10sp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_below="@id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• No shouldering, holding, striking, pushing, or tripping in any way of an opponent."
+            />
+        <TextView
+            android:padding="10sp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_below="@id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• A team may consist of players from different streams like BBA, BCA, BE, etc. but they belong to
+same year."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EVENT COORDINATORS"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:padding="20sp"
+            />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:padding="5sp"
+                android:layout_marginLeft="15sp"
+                android:textColor="#000000"
+                android:text="Bakul Sharma"
+                />
+            <TextView
+                android:padding="5sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9529245540"
+                android:textStyle="bold"
+                android:textColor="#0085B2"
+                android:id="@+id/con_num2"
+                android:textSize="20sp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20sp"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:padding="5sp"
+                android:layout_marginLeft="15sp"
+                android:textColor="#000000"
+                android:text="Aditya Shah"
+                />
+            <TextView
+                android:padding="5sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9166608559"
+                android:id="@+id/con_num3"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20sp"
+                />
+        </RelativeLayout>
+        <Button
+            android:id="@+id/reg"
+            android:layout_below="@id/con_num2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            />
+        <Button
+
+            android:id="@+id/down"
+            android:layout_below="@id/con_num2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Download"
+            android:visibility="invisible"
+            />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+</ScrollView>
